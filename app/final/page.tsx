@@ -4,14 +4,16 @@ export default function Page() {
     <h1 className="text-3xl ml-5">Final Exam</h1>
     <form>
       <label htmlFor="product" className="ml-5">Product Description</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-pink-400"/>
       <br />
-      <label htmlFor="cars" className="mx-5">Choose a car:</label>
-      <select name="cars" id="cars">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+      <label htmlFor="flowers" className="mx-5">Choose flower you like :</label>
+      <select name="flowers" id="flowers">
+      <option value="Flower carnation Rose Bouquet with Light and Gift Box">Flower carnation Rose Bouquet with Light and Gift Box</option>
+      <option value="Eternal Flower Rose with Transparent Acrylic Gift Box">Eternal Flower Rose with Transparent Acrylic Gift Box</option>
+      <option value="Floral Rose Unicorn Delight Box">Floral Rose Unicorn Delight Box</option>
+      <option value="Floral Rose Bunny Delight Box">Floral Rose Bunny Delight Box</option>
+      <option value="External Flower Bucket rose Bouquet Gift Box">External Flower Bucket rose Bouquet Gift Box</option>
+      <option value="The Gift Shop Gift Cards">The Gift Shop Gift Cards</option>
       </select>
 
       <br />
