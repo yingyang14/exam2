@@ -19,19 +19,19 @@ export default function Page() {
       <br />
 
       <div className="ml-5 mt-5">
-      <input type="radio" id="html" name="fav_language" value="HTML" />
-      <label htmlFor="html">HTML</label><br />
-      <input type="radio" id="css" name="fav_language" value="CSS" />
-      <label htmlFor="css">CSS</label><br />
-      <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-      <label htmlFor="javascript">JavaScript</label>
+      <input type="radio" id="Need flower with box" name="choice" value="Need flower with box" />
+      <label htmlFor="Need flower with box">Need flower with box</label><br />
+      <input type="radio" id="Need flower without box" name="choice" value="Need flower without box" />
+      <label htmlFor="Need flower without box">Need flower without box</label><br />
+      <input type="radio" id="Need flower with gift cards" name="choice" value="Need flower with gift cards" />
+      <label htmlFor="Need flower with gift cards">Need flower with gift cards</label>
       </div>
 
       <div className="ml-5 mt-5">
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-      <label htmlFor="vehicle1"> I have a bike</label><br />
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-      <label htmlFor="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="action1" name="action1" value="Bought before" />
+      <label htmlFor="action1"> I have bought it before</label><br />
+      <input type="checkbox" id="action2" name="action2" value="Nerver bought" />
+      <label htmlFor="action2"> I have never bought it before</label><br />
       </div>
 
       <br />
